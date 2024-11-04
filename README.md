@@ -4,6 +4,14 @@ I denna övning ska vi börja planera, och senare skapa, en databas som tomten k
 
 Uppgiften kommer att utgå ifrån några user stories och en liten kravlista på data som ska ingå i databasen. En User Story är egentligen bara en kravbeskrivning på en specific feature som applikationen ( i det här fallet databasen ) ska uppfylla och dessa user stories är skrivna utifrån tomtens perspektiv.
 
+Uppgiften innehåller olika delar och vi behöver olika kunskaper för att kunna läsa de olika delarna. Det betyder att vi inte kan läsa hela uppgiften på en gång. Följande kunskaper behövs för varje del:
+
+**Del 1 - Kunskap om ER-diagram, entiteter, attribut och relationer.**
+
+**Del 2 - Kunskap om ett databasprogram _( SQLite Studio i vårt fall )_.**
+
+**Del 3 - Kunskap om grundläggande SQL.**
+
 ### User Stories
 
 1. Som tomte vill jag ha ett register över barn där jag kan se deras namn och addresser.
@@ -23,7 +31,7 @@ Kommer senare..
 
 Kommer senare..
 
-### Kravlista för data
+### Kravlista för data / Läggs in senare..
 
 Följande data ska ingå i databasen.
 
