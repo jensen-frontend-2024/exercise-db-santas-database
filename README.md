@@ -1,4 +1,4 @@
-# Övning - Santas Databas
+# Övning - Tomtens Databas
 
 I denna övning ska vi börja planera, och senare skapa, en databas som tomten kan använda för att hålla koll på barn, deras önskningar och adresser.
 
