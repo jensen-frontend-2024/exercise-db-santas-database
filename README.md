@@ -2,7 +2,7 @@
 
 I denna övning ska vi börja planera, och senare skapa, en databas som tomten kan använda för att hålla koll på barn, deras önskningar och adresser.
 
-Uppgiften kommer att utgå ifrån några user stories och en liten kravlista på data som ska ingå i databasen. En User Story är egentligen bara en kravbeskrivning på en specific feature som applikationen ( i det här fallet databasen ) ska uppfylla och dessa user stories är skrivna utifrån tomtens perspektiv.
+Uppgiften kommer att ut ifrån några user stories och en liten kravlista på data som ska ingå i databasen. En User Story är egentligen bara en kravbeskrivning på en specific feature som applikationen ( i det här fallet databasen ) ska uppfylla och dessa user stories är skrivna utifrån tomtens perspektiv.
 
 Uppgiften innehåller olika delar och vi behöver olika kunskaper för att kunna läsa de olika delarna. Det betyder att vi inte kan läsa hela uppgiften på en gång. Följande kunskaper behövs för varje del:
 
@@ -32,7 +32,7 @@ Ni ska skapa ett tydligt och strukturerat ER-diagram som omfattar alla user stor
 
 ### Instruktioner del 3 - Skriva queries
 
-Skriv queries som motsvarar det som efterfrågas i user stories. Försök att spara undan de i Views.
+Skriv queries som motsvarar det som efterfrågas i user stories. Spara undan de i views.
 
 Vad är en view då?
 
