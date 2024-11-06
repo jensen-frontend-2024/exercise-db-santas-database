@@ -21,44 +21,65 @@ Uppgiften innehåller olika delar och vi behöver olika kunskaper för att kunna
 3. Som tomte vill jag kunna se önskelistan tillsammans med barnets namn och address.
 
 ### Instruktioner del 1 - ER-Diagram
-Ni ska skapa ett tydligt och strukturerat ER-diagram som omfattar alla user stories från ovan. Tänk igenom vilka entiter som ska finnas samt vilka attribut som ska finnas på varje entitet. Tänk också igenom vilka relationer som ska finnas mellan de olika entiteterna. 
+
+Ni ska skapa ett tydligt och strukturerat ER-diagram som omfattar alla user stories från ovan. Tänk igenom vilka entiter som ska finnas samt vilka attribut som ska finnas på varje entitet. Tänk också igenom vilka relationer som ska finnas mellan de olika entiteterna.
 
 ### Instruktioner del 2 - Skapa databasen
 
-Kommer senare..
+1. Använda dig av SQLite studio
+2. Utgå ifrån ditt ER-Diagram och skapa de nödvändiga tabellerna, kolumner och relationer.
+3. Fyll på de olika tabellerna med data som syns längre ner i uppgiften.
 
 ### Instruktioner del 3 - Skriva queries
 
-Kommer senare..
+Skriv queries som motsvarar det som efterfrågas i user stories. Försök att spara undan de i Views.
+
+Vad är en view då?
+
+En view i SQLite är en virtuell tabell som skapas baserat på resultatet av en SELECT-fråga. Viewen fungerar som en sparad fråga som du kan använda för att förenkla komplexa databasfrågor eller för att presentera data på ett visst sätt utan att ändra den underliggande tabellen.
+
+Här är ett exempel:
+
+```sql
+CREATE VIEW view_all_students AS
+SELECT * FROM students;
+```
+
+View som skapas av detta kommer att läggas under "Views" under databasen i databas-fönstret till vänster i SQLite studio.
 
 ### Kravlista för data / Läggs in senare..
 
 Följande data ska ingå i databasen.
 
 **Personer som ska existera i databasen**
+
 - Karl Månstråle, Bjärsgård, 27100 Rydsgård, Sweden
 - Winston Churchy, 4 Tennison Rd, CB4EA Cambridge, UK
 - Fairy Godmother, Main st 1, Main, 41110 Maine, USA
 - Trompe Le Donne, Vita stugan 1, 1000 Washington DC, USA
 
 **Karl önskar sig:**
+
 - Stenbock
 - Gunghäst
 - Käpphäst
 - Garnnystan
 
 **Winston önskar sig:**
+
 - Nordafrika
 - Levanten
 - Istanbul
 - Fred på jorden
 
 **Fairy Godmother önskar:**
+
 - Skiva med Marcus och Martinus
 - Fred på jorden
 - Polkagrisar
 
 **Trompe Le Donne önskar:**
+
 - Ledigt
 - Lugn och ro
 - Inskränkningar i pressfriheten
